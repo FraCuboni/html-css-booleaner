@@ -1,14 +1,14 @@
 *{
-    text-align: left;
     box-sizing: border-box;
 }
 
 body{
+    margin: 0 300px 0;
 }
 
 .logoback{
     background-image: url(../img/pattern.png);
-    height: 200px;
+    height: 150px;
     background-color: #4EA0FF;
     position: relative;
 }
@@ -16,22 +16,26 @@ body{
 .logo{
     content: url(../img/logo.svg);
     position: absolute;
-    width: 30%;
+    width: 25%;
     bottom: 0;
 }
 
 .main-images{
+    background-color: red;
+    width: 100%;
+}
 
+.main-images span{
+    margin-top: 30px;
+    height: 300px;
 }
 
 .main-image1{
     content: url(../img/tim-1.jpg);
-     height: 500px;
 }
 
 .main-image2{
     content: url(../img/tim-2.jpg);
-    height: 500px;
 }
 
 table{
@@ -54,7 +58,7 @@ thead{
     background-color: lightskyblue;
 }
 
-h1{
+h2{
     font-size: 50px;
     font-weight: bolder;
     margin-bottom: 0;
@@ -75,4 +79,8 @@ h4{
 
 .secondtext{
     margin-top: 10px;
+}
+
+.smalltxt{
+    font-size: 10px;
 }
