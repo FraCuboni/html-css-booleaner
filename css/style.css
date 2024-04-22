@@ -39,16 +39,21 @@ table{
     border-spacing: 0;
 }
 
+thead td{
+    color: white;
+}
+
 .fimages{
     color: white;
     height: 200px;
     background-repeat: no-repeat;
+    font-size: 25px;
+    padding-left: 10px;
+    padding-top: 10px;
 }
 
 .fimage1{
     background-image: url(../img/monitor.jpg);
-
-
 }
 
 .fimage2{
@@ -77,12 +82,15 @@ ul{
 .highlitedblue{
     color: lightskyblue;
 }
+
 .highlitedyellow{
     background-color: yellow;
 }
+
 h4{
     color: grey;
 }
+
 .bigdata{
     width: 50%;
 }
