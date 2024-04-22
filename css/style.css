@@ -20,16 +20,24 @@ body{
     bottom: 0;
 }
 
+.main-images{
+
+}
+
 .main-image1{
     content: url(../img/tim-1.jpg);
-    width: 45%;
+     height: 500px;
 }
 
 .main-image2{
     content: url(../img/tim-2.jpg);
-    width: 45%;
+    height: 500px;
 }
 
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
 .fimage1{
     content: url(../img/monitor.jpg);
 }
@@ -49,4 +57,22 @@ thead{
 h1{
     font-size: 50px;
     font-weight: bolder;
+    margin-bottom: 0;
+}
+
+.highlitedblue{
+    color: lightskyblue;
+}
+.highlitedyellow{
+    background-color: yellow;
+}
+h4{
+    color: grey;
+}
+.bigdata{
+    width: 50%;
+}
+
+.secondtext{
+    margin-top: 10px;
 }
