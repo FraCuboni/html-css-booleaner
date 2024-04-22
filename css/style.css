@@ -6,7 +6,7 @@
 .logo{
     background-image: url(../img/pattern.png);
     height: 100px;
-    width: 50%;
+    width: 100%;
     background-color: #4EA0FF;
     content: url(../img/logo.svg);
 }
@@ -17,4 +17,12 @@
 
 .main-image2{
     content: url(../img/tim-2.jpg);
+}
+
+.fimage1{
+    content: url(../img/monitor.jpg);
+}
+
+.fimage2{
+    content: url(../img/graph.jpg);
 }
