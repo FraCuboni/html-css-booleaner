@@ -1,0 +1,11 @@
+*{
+    text-align: left;
+    box-sizing: border-box;
+}
+.logo{
+    background-image: url(../img/pattern.png);
+    height: 100px;
+    width: 50%;
+    background-color: #4EA0FF;
+    content: url(../img/logo.svg);
+}
