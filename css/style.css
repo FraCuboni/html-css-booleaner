@@ -3,20 +3,31 @@
     box-sizing: border-box;
 }
 
-.logo{
+body{
+}
+
+.logoback{
     background-image: url(../img/pattern.png);
-    height: 100px;
-    width: 100%;
+    height: 200px;
     background-color: #4EA0FF;
+    position: relative;
+}
+
+.logo{
     content: url(../img/logo.svg);
+    position: absolute;
+    width: 30%;
+    bottom: 0;
 }
 
 .main-image1{
     content: url(../img/tim-1.jpg);
+    width: 45%;
 }
 
 .main-image2{
     content: url(../img/tim-2.jpg);
+    width: 45%;
 }
 
 .fimage1{
@@ -25,4 +36,17 @@
 
 .fimage2{
     content: url(../img/graph.jpg);
+}
+
+thead{
+    background-color: #4EA0FF;
+}
+
+.bluerow{
+    background-color: lightskyblue;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: bolder;
 }
